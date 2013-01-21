@@ -1,0 +1,160 @@
+html {
+	height: 100%;
+}
+
+p {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #999999
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#candiv 
+{
+    background-color:#e30808;
+    float: left;
+    position:absolute; 
+    width:1270px; 
+    height:635px;
+    left: 0px;
+    top:0px;
+}
+
+#canvas1
+{
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#canvas2
+{
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#FragmentAddButton {
+    background-image:url('images/AddRelation.png');
+}
+
+#FragmentDetailBox {
+    position: absolute;
+    right: 23px;
+    top: 70px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 250px;
+    height: 473px;
+    border-radius: 5px;
+    border: 1px solid #b3b3b3;
+    color: #000000;
+    display: none;
+}
+
+#input1 {
+    position: absolute; 
+    right: 0px;
+    top: 230px;
+    width: 248px;
+    height: 1.1em;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: .9em;
+    border: none;
+    background: #e6e6e6;
+}
+
+#input2 {
+    position: absolute; 
+    right: 0px;
+    top: 255px;
+    width: 248px;
+    height: 1.1em;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: .9em;
+    border: none;
+    background: #e6e6e6;
+}
+
+#textarea {
+    position: absolute; 
+    right: 0px;
+    top: 280px;
+    width: 246px;
+    height: 150px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: .9em;
+    border: none;
+    background: #e6e6e6;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.editWindowBox {
+    position: absolute;
+    
+    /*border: 1px solid #b3b3b3;*/
+    background: rgba(179, 179, 179, 0.2);
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+#TextBox {
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Helvetica,Arial,sans-serif;
+    color: #999999;
+
+}
+
+#PartWhole {
+    background-image:url('images/PartWhole.png');
+}
+
+#Reference {
+    background-image:url('images/Reference.png');
+}
+
+#Object {
+    background-image:url('images/Object.png');
+}
+
+#Creative {
+    background-image:url('images/Creative.png');
+}
+
+#relbutton1 {
+    background-image:url('images/relation1.png');
+}
+
+#relbutton2 {
+    background-image:url('images/relation2.png');
+}
+
+.custom-tooltip-styling {
+    font-size: .7em;
+    padding: .3em;
+}
+
+#annotation {
+    /*position: absolute;
+    left:100px;
+    top:300px;*/
+    width: 200px;
+    height: 50px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: .9em;
+    border: none;
+    border-radius: 5px;
+    background: #e6e6e6;
+}
